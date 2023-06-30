@@ -1,0 +1,9 @@
+.intern-desc {
+    width: calc(80% - 20px);
+    margin: auto;
+    line-height: 35px;
+}
+
+.internship {
+    margin-bottom: 50px;
+}

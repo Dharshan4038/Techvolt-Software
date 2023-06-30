@@ -1,0 +1,52 @@
+.head {
+    border-bottom: 1px solid black;
+}
+
+.header {
+    background-color: rgb(237, 233, 228);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.header p {
+    /* background-color: aqua; */
+    height: 25px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.telephone{
+    width: 500px;
+    padding-left: 10%;
+    border-right: 1px solid black;
+}
+
+.mail {
+    width: 400px;
+    padding-right: 40px;
+    border-right: 1px solid black;
+}
+
+.fb{
+    width: 200px;
+    padding-right: 5%;
+    border-right: 1px solid black;
+}
+
+.linkedin {
+    width: 300px;
+    padding-right: 8%;
+}
+
+.bi-telephone-fill,.bi-envelope-fill {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+@media (max-width: 1360px) {
+    .header p {
+        display: none;
+    }
+}

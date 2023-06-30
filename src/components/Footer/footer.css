@@ -1,0 +1,50 @@
+.footer {
+    background-color: #222;
+    color: white;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sub-foot {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sft2 {
+    margin-left: 35px;
+}
+
+.ft2 {
+    margin-left: 150px;
+}
+
+.sub-foot h5 {
+    margin-bottom: 50px;
+}
+
+.copyright {
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.sub-foot p {
+    line-height: 10px;
+    font-weight: 100;
+}
+
+.sft2 i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.sft2 i:hover {
+    color: #777;
+    transform: scale(1.01);
+    transition: .5s;
+}

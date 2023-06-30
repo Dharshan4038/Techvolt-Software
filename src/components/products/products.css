@@ -1,0 +1,29 @@
+.products {
+    text-align: center;
+}
+
+.products h4 {
+    margin-bottom: 20px;
+    margin-top:50px;
+}
+
+.prod-desc {
+    width: calc(80% - 20px);
+    margin: auto;
+    line-height: 35px;
+}
+
+.prod-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto;
+    /* background-color: aqua; */
+    width: 60vw;
+}
+
+.pcd {
+    border-radius: 0px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
